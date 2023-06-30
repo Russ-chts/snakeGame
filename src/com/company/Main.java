@@ -4,6 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.*;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -22,10 +26,12 @@ public class Main extends JPanel implements KeyListener {
     private static String direction;
     private boolean allowKeyPress;
     private int score;
+    private int hightest_score;
 
 
 
     public Main(){
+        read_highest_score();
         reset();
         addKeyListener(this);
     }
@@ -62,7 +68,8 @@ public class Main extends JPanel implements KeyListener {
                 allowKeyPress = false;
                 t.cancel();
                 t.purge();
-                int response = JOptionPane.showOptionDialog(this,"Game Over!! Would you like to start over?","Game Over",JOptionPane.YES_NO_OPTION,JOptionPane.INFORMATION_MESSAGE,null,null,JOptionPane.YES_OPTION);
+                int response = JOptionPane.showOptionDialog(this,"Game Over!! You score is " + score + ". The highest score was " + hightest_score + " .Would you like to start over?","Game Over",JOptionPane.YES_NO_OPTION,JOptionPane.INFORMATION_MESSAGE,null,null,JOptionPane.YES_OPTION);
+                write_a_file(score);
                 switch (response){
                     case JOptionPane.CLOSED_OPTION :
                         System.exit(0);
@@ -101,6 +108,7 @@ public class Main extends JPanel implements KeyListener {
         if(snake.getSnakeBody().get(0).x == fruit.getX() && snake.getSnakeBody().get(0).y == fruit.getY()){
             fruit.setNewLocation(snake);
             fruit.drawFruit(g);
+            score++;
         }else{
             snake.getSnakeBody().remove(snake.getSnakeBody().size() - 1);
         }
@@ -150,5 +158,41 @@ public class Main extends JPanel implements KeyListener {
     @Override
     public void keyReleased(KeyEvent e) {
 
+    }
+
+    public void read_highest_score(){
+        try{
+            File myObj = new File("filename.txt");
+            Scanner myReader = new Scanner(myObj);
+            hightest_score = myReader.nextInt();
+            myReader.close();
+        }catch (FileNotFoundException e){
+            hightest_score = 0;
+            try {
+                File myObj = new File("filename.txt");
+                if (myObj.createNewFile()) {
+                    System.out.println("File created: " + myObj.getName());
+                }
+                FileWriter myWriter = new FileWriter(myObj.getName());
+                myWriter.write("" + 0);
+            } catch (IOException err){
+                System.out.println("An error occurred");
+                err.printStackTrace();
+            }
+        }
+    }
+    public void write_a_file(int score){
+        try{
+            FileWriter myWriter = new FileWriter("filename.txt");
+            if(score > hightest_score){
+                myWriter.write("" + score);
+                hightest_score = score;
+            }else{
+                myWriter.write("" + hightest_score);
+            }
+            myWriter.close();
+        }catch (IOException e){
+            e.printStackTrace();
+        }
     }
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c2117d9-4008-4860-9085-7af70cedcd31" name="Changes" comment="Eating Fruit Logic">
+    <list default="true" id="4c2117d9-4008-4860-9085-7af70cedcd31" name="Changes" comment="Game Over Logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
@@ -79,7 +79,7 @@
       <workItem from="1688082528720" duration="7130000" />
       <workItem from="1688089768037" duration="734000" />
       <workItem from="1688090518406" duration="156000" />
-      <workItem from="1688096847121" duration="3265000" />
+      <workItem from="1688096847121" duration="5833000" />
     </task>
     <task id="LOCAL-00001" summary="java snake game">
       <created>1688049594134</created>
@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688098432717</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Game Over Logic">
+      <created>1688100383833</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688100383833</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +170,7 @@
     <MESSAGE value="Controlling the Snake" />
     <MESSAGE value="Crossing the Border" />
     <MESSAGE value="Eating Fruit Logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eating Fruit Logic" />
+    <MESSAGE value="Game Over Logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Game Over Logic" />
   </component>
 </project>
