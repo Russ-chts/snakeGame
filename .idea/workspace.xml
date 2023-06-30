@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c2117d9-4008-4860-9085-7af70cedcd31" name="Changes" comment="Game Over Logic">
+    <list default="true" id="4c2117d9-4008-4860-9085-7af70cedcd31" name="Changes" comment="Keeping the Highest Score">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Fruit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,21 +31,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/趙子升/OneDrive/桌面/PCSchool/Spring boot 古古/Springboot-mall/springboot-mall&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/趙子升/OneDrive/桌面/PCSchool/Spring boot 古古/Springboot-mall/springboot-mall",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\趙子升\OneDrive\桌面\PCSchool\JavaSnakeGame\JavaSnakeGame\src" />
@@ -79,7 +80,7 @@
       <workItem from="1688082528720" duration="7130000" />
       <workItem from="1688089768037" duration="734000" />
       <workItem from="1688090518406" duration="156000" />
-      <workItem from="1688096847121" duration="5833000" />
+      <workItem from="1688096847121" duration="7296000" />
     </task>
     <task id="LOCAL-00001" summary="java snake game">
       <created>1688049594134</created>
@@ -144,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688100383833</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Keeping the Highest Score">
+      <created>1688103204380</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688103204380</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +170,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="java snake game" />
     <MESSAGE value="Hello World" />
     <MESSAGE value="版面配置設定" />
@@ -171,6 +180,7 @@
     <MESSAGE value="Crossing the Border" />
     <MESSAGE value="Eating Fruit Logic" />
     <MESSAGE value="Game Over Logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Game Over Logic" />
+    <MESSAGE value="Keeping the Highest Score" />
+    <option name="LAST_COMMIT_MESSAGE" value="Keeping the Highest Score" />
   </component>
 </project>

@@ -10,7 +10,8 @@ public class Fruit {
     private ImageIcon img;
 
     public Fruit(){
-        img = new ImageIcon(("C:/Users/趙子升/OneDrive/桌面/PCSchool/JavaSnakeGame/JavaSnakeGame/out/production/JavaSnakeGame/com/company/fruit.png"));
+//        img = new ImageIcon(("C:/Users/趙子升/OneDrive/桌面/PCSchool/JavaSnakeGame/JavaSnakeGame/out/production/JavaSnakeGame/com/company/fruit.png"));
+        img = new ImageIcon(getClass().getResource("fruit.png"));
         this.x = (int)(Math.floor(Math.random() * Main.column) * Main.CELL_SIZE);
         this.y = (int)(Math.floor(Math.random() * Main.row) * Main.CELL_SIZE);
     }
