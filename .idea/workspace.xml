@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c2117d9-4008-4860-9085-7af70cedcd31" name="Changes" comment="Fruit Setting">
+    <list default="true" id="4c2117d9-4008-4860-9085-7af70cedcd31" name="Changes" comment="Moving the Sanke">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Snake.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <updated>1688045370769</updated>
       <workItem from="1688045371789" duration="4168000" />
       <workItem from="1688053554441" duration="105000" />
-      <workItem from="1688082528720" duration="3095000" />
+      <workItem from="1688082528720" duration="4516000" />
     </task>
     <task id="LOCAL-00001" summary="java snake game">
       <created>1688049594134</created>
@@ -101,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688084262762</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Moving the Sanke">
+      <created>1688085699643</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688085699643</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +129,7 @@
     <MESSAGE value="Hello World" />
     <MESSAGE value="版面配置設定" />
     <MESSAGE value="Fruit Setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fruit Setting" />
+    <MESSAGE value="Moving the Sanke" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moving the Sanke" />
   </component>
 </project>
